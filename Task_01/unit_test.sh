@@ -26,7 +26,7 @@ input=$2
 expected=$3
 output=$("$file" "$input")
 
-#Test if it match output
+#Test if it match output, if not then print the expected and got value
 if [ "$output" -eq "$expected" ]; then
    echo "PASS"
    exit 1

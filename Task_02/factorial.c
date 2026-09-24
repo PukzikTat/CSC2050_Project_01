@@ -11,7 +11,7 @@ int main(int argc, char *argv[]){
                 printf("Give an input\n");
                 return 1;
         }
-        //Convert the string to integer
+        //Convert the string to long
         number = strtol(argv[1], &endptr, 10);
 
         //Calculating the factorial
